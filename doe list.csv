@@ -1,0 +1,302 @@
+﻿Design of Experiments/Test Name,What it measures,Inputs,Expected Outputs,Source Organization,Reference URLs,Applicability / Caveats
+Completely Randomized Design (CRD),Treatment effect against uncontrolled unit variation,Treatment levels; independent units; randomization; response; replication,Treatment means; error variance; ANOVA; effect estimates,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Randomized Complete Block Design (RCBD),Treatment differences after controlling one nuisance factor,Treatments; homogeneous blocks; random assignment within blocks; response,Block-adjusted treatment effects; ANOVA; residual variance,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Latin Square Design,Treatment effects while controlling two blocking directions,"Equal number of treatments, rows and columns; randomization; response",Adjusted treatment comparisons; row/column effects; ANOVA,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Graeco-Latin Square Design,Treatment effects while accounting for multiple orthogonal nuisance classifications,Compatible square order; two orthogonal treatment labels; response,Treatment and nuisance effects; ANOVA,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Matched-Pairs Design,Treatment effect within paired or matched units,Pairing criteria; two treatments; paired responses,Paired differences; confidence interval; paired test,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Repeated-Measures Design,Within-unit treatment or time effects,Repeated observations; subject IDs; sequence; covariance assumptions,Within-unit effects; time trends; covariance estimates,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Crossover Design,Treatment effects with subject-level control and possible carryover,Treatment sequences; washout; periods; response,"Treatment, period and carryover estimates; uncertainty","NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Nested Design,Variation and effects across hierarchical experimental units,Nested factors; sampling hierarchy; replication,Variance components; nested factor tests,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Split-Plot Design,Whole-plot and subplot effects with restricted randomization,Hard-to-change factor; easy-to-change factor; whole plots; subplots,Factor/interaction effects; separate error strata,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Split-Split-Plot Design,Effects across three levels of randomization,Three-tier factor hierarchy; whole/sub/sub-subplots,Effects; interactions; multiple error strata,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Incomplete Block Design,Treatment comparisons when not all treatments fit each block,Treatments; block capacity; incidence structure,Adjusted effects; efficiency; ANOVA,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Balanced Incomplete Block Design (BIBD),Balanced treatment comparisons in incomplete blocks,Treatment count; block size; replication; pairwise balance,Treatment estimates; standard errors; efficiency,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Youden Square Design,Treatment comparisons with incomplete blocks and row balance,Treatments; row/block layout; balance constraints,Adjusted treatment effects; block-adjusted estimates,"NIST, ISO, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.iso.org/standard/40147.html
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Full Factorial 2-Level Design,Main effects and interactions across all low/high factor combinations,Factors; low/high levels; randomization; replicates; response,Main/interaction effects; ANOVA; model,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Full Factorial Multi-Level Design,"Main effects, interactions and possible nonlinear effects",Factors; 3+ levels; runs; replication; response,Factor effects; interactions; curvature information,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Fractional Factorial 2-Level Design,Efficient screening with known aliasing,Factors; levels; resolution; generators; response,Aliased effect estimates; candidate drivers; follow-up plan,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Resolution III Fractional Factorial,Main-effect screening with potential main-effect/two-factor confounding,Factors; run budget; generator; response,Screening effects with confounding caveats,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Resolution IV Fractional Factorial,Main-effect screening separated from two-factor interactions,Factors; generator; response; run budget,Main-effect estimates; aliased two-factor interactions,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Resolution V Fractional Factorial,Main and two-factor effect estimation with reduced confounding,Factors; generators; replication; response,Main effects; two-factor effects with alias structure,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Plackett–Burman Screening Design,Screen many factors with few runs under negligible-interaction assumption,Many factors; two levels; run count; response,Main-effect screening rankings; potential confounding,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Definitive Screening Design (DSD),Screen main effects and assess curvature efficiently,Quantitative factors; 3 levels; run plan; response,Main effects; selected quadratic and interaction effects,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Foldover Augmentation,Resolve confounding in a screening/fractional design,Existing design; foldover rules; additional run budget,Reduced aliasing; clearer effect estimates,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Center-Point Augmented Factorial,Detect overall curvature and estimate pure error,Factorial corner runs; replicated center runs; response,Curvature test; pure-error estimate; effect estimates,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Sequential Bifurcation,Identify influential factors in very large factor sets,Factors with direction assumptions; group tests; response,Shortlist of influential factors; staged run record,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Ruggedness Test,Identify operating or method factors that materially change results,Candidate nuisance factors; allowable ranges; response,Sensitivity/ruggedness profile; control recommendations,"NIST, ASTM International, ASQ, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.astm.org/search?q=E1169
+https://asq.org/quality-resources/design-of-experiments
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Central Composite Design (CCD),"Linear, interaction and quadratic response behavior",Continuous factors; factorial/axial/center points; bounds,Quadratic model; stationary point; contours; prediction,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Face-Centered Central Composite Design,Quadratic response within specified factor bounds,Continuous factors; bounded axial points; centers,Quadratic coefficients; optimum estimate; diagnostics,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Circumscribed Central Composite Design,Quadratic response with axial points beyond factorial cube,Factors; axial distance; feasible extended region,Quadratic fit; curvature and optimization results,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Inscribed Central Composite Design,Quadratic response inside constrained design region,Factors; scaled factorial levels; axial limits,Quadratic model; response contours,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Box–Behnken Design,Quadratic response with fewer extreme corner combinations,3+ continuous factors; three levels; center points,Quadratic model; optimum region; lack-of-fit diagnostics,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Three-Level Full Factorial RSM,Curvature and interactions across full three-level grid,Factors; low/center/high; replicates,Quadratic/higher-order effect estimates; response surfaces,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Steepest Ascent / Descent Experiment,Direction of greatest local response improvement,First-order fitted model; step size; operating bounds,Improvement trajectory; new candidate region,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Path of Improvement Sequential DOE,Iterative exploration toward better performance,Current model; next-run rules; response feedback,Updated operating region; improved candidate settings,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Desirability-Function Multiresponse DOE,Tradeoffs among multiple performance responses,Responses; goals; weights; predictive models,Composite desirability; recommended factor settings,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Constrained Response Surface DOE,Optimal settings subject to physical or safety constraints,Factor bounds; response constraints; predictive model,Feasible optimum; constraint sensitivity,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Simplex-Lattice Mixture Design,Response versus component proportions summing to one,Mixture components; total proportion; lattice degree,Mixture model; blending effects; optimum composition,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Simplex-Centroid Mixture Design,Pure components and balanced blend interactions,Mixture components; feasible simplex; response,Blending coefficients; response surface,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Extreme-Vertices Mixture Design,Mixture behavior under composition constraints,Lower/upper bounds; linear mixture constraints; response,Constrained mixture model; feasible optimum,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Mixture–Process Variable Design,Combined mixture composition and process-setting effects,Mixture proportions; process factors; response,Mixture/process interactions; optimal settings,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+D-Optimal Mixture Design,Efficient estimation under irregular mixture constraints,Candidate blends; model terms; run budget,Information-efficient runs; mixture model,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Taguchi Orthogonal Array Design,Factor effects using structured low-run arrays,Control factors; levels; orthogonal array; response,Effect estimates; factor setting recommendations,"NIST, ASQ","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://asq.org/quality-resources/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Inner–Outer Array Robust Parameter Design,Sensitivity of controllable factors to noise factors,Control factors; noise factors; arrays; performance responses,Robust settings; noise interactions; S/N measures,"NIST, ASQ","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://asq.org/quality-resources/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Crossed Control–Noise Factorial,Explicit control-by-noise interactions,Control/noise factors; levels; response,Noise sensitivity; interaction effects; robust region,"NIST, ASQ","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://asq.org/quality-resources/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Tolerance Design Experiment,Effect of factor variation and tolerance choices on output,Tolerance distributions; factor levels; responses,Sensitivity; variance contributions; tolerance recommendations,"NIST, ASQ","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://asq.org/quality-resources/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Dual-Response Optimization Design,Optimize mean performance while controlling variability,Replicated responses; mean and variance models; constraints,Mean/variance predictions; robust operating point,"NIST, ASQ","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://asq.org/quality-resources/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+D-Optimal Design,Maximize parameter information for a specified model,Candidate runs; model; constraints; run budget,Selected runs; design determinant/efficiency; estimates,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+A-Optimal Design,Minimize average parameter-estimate variance,Candidate set; model; weights; run budget,Selected runs; covariance trace; model estimates,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+I-Optimal Design,Minimize average prediction variance over design region,Candidate set; prediction region; model; run budget,Selected runs; integrated prediction variance,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+G-Optimal Design,Minimize maximum prediction variance,Candidate set; model; design region,Selected runs; worst-case prediction variance,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Custom / Algorithmic Design,Construct feasible designs for mixed factors and constraints,Factor types; forbidden combinations; model; run budget,Feasible run matrix; efficiency/alias diagnostics,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Space-Filling Latin Hypercube Sampling,Explore multidimensional input space for simulation models,Input ranges/distributions; sample count; simulator,Distributed sample set; model-response dataset,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Orthogonal Latin Hypercube Design,Space-filling simulation coverage with improved balance,Factor ranges; sample size; orthogonality constraints,Balanced simulation run plan; responses,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Sequential Adaptive DOE,Select new experiments based on current evidence,Initial observations; objective; acquisition policy; constraints,Next-run recommendations; updated model/uncertainty,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Bayesian Optimization Experiment,Optimize expensive black-box response with surrogate uncertainty,Initial runs; prior/surrogate; objective; constraints,Suggested trials; posterior predictions; best observed setting,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Active Learning Design,Reduce predictive uncertainty with informative new observations,Candidate inputs; model uncertainty; sampling budget,Selected observations; updated predictive model,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Computer Experiment / Simulation DOE,Input-to-output behavior of deterministic or stochastic simulation,Model version; parameter ranges; scenario set; seeds,Simulation response dataset; sensitivities; surrogate model,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Monte Carlo Scenario Experiment,Output distribution under uncertain input variation,Input distributions; correlations; simulation model; trials,Output distributions; failure probabilities; uncertainty,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Factorial Simulation Experiment,Main effects/interactions in modeled system behavior,Simulation factors; levels; seeds; response,Simulation factor effects; interaction plots,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Common-Random-Numbers Paired Simulation,Compare alternatives while reducing simulation noise,Alternative configurations; shared random streams; replications,Paired performance differences; precision gains,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Design of Experiments for Hardware-in-the-Loop,Embedded-system sensitivity to controllable and disturbance factors,HIL platform; factors; scenario bounds; responses,Interaction effects; margins; failure-triggering combinations,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Reliability Stress Factor DOE,Interactions among environmental and operational stresses,Stress factors; safe ranges; failure/degradation response,Dominant stresses; interactions; test refinement,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Fault-Injection Factorial Experiment,"Interactions among fault type, timing, load and recovery controls",Fault catalog; injection factors; system; response metrics,Failure/recovery drivers; coverage; interactions,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Mission Scenario DOE,Mission success sensitivity to operating scenario factors,Mission profile; scenario factors; success criteria,Mission success model; high-risk scenarios; sensitivity,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Software Configuration DOE,Performance and stability across software settings,Configuration factors; workload; software version; metrics,Config effects; interactions; preferred settings,"NIST, Penn State, JMP","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm
+https://www.itl.nist.gov/div898/handbook/pmd/pmd.htm
+https://online.stat.psu.edu/stat503/
+https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments","Tailor design, randomization, replication, assumptions and acceptance criteria to the application."
+Regression Discontinuity Experiment,Local treatment effect around an assignment threshold,Assignment score; cutoff; outcome; validity assumptions,Local effect estimate; discontinuity diagnostics,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
+Cluster-Randomized Experiment,Treatment effect with group-level assignment,Clusters; treatment arms; intracluster correlation; response,Cluster-adjusted effects; uncertainty,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
+Blocked A/B Experiment,Alternative comparison while controlling known nuisance strata,Alternatives; strata; randomization; response,Stratum-adjusted effect; uncertainty,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
+Multi-Armed Bandit Experiment,Adaptive allocation among competing alternatives,Alternatives; reward metric; allocation rule; stopping rule,Reward estimates; allocation history; regret/selection,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
+Calibration / Measurement-System DOE,"Influence of operator, instrument and environment on measurement",Reference standards; operators; instruments; repeats,Bias; repeatability/reproducibility; measurement effects,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
+Confirmatory Experiment / Validation Runs,Whether predicted optimum or effect replicates independently,Frozen model; predicted settings; independent runs; criteria,Observed-versus-predicted result; confirmation decision,"NIST, Penn State","https://www.itl.nist.gov/div898/handbook/pri/pri.htm
+https://www.itl.nist.gov/div898/handbook/prc/section4/prc4.htm
+https://online.stat.psu.edu/stat503/
+https://www.itl.nist.gov/div898/handbook/mpc/mpc.htm",Some methods are specialized experimental strategies rather than traditional industrial DOE templates.
